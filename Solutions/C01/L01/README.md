@@ -8,6 +8,9 @@
   - [05. Text Elements I](#05-text-elements-i)
   - [06. Text Elements II](#06-text-elements-ii)
   - [07. HTML Lists](#07-html-lists)
+      - [Unordered Lists](#unordered-lists)
+      - [Ordered Lists](#ordered-lists)
+      - [Description Lists](#description-lists)
   - [08. Attributes](#08-attributes)
   - [09. The DOM](#09-the-dom)
   - [10. Exercise: Creating an HTML Template](#10-exercise-creating-an-html-template)
@@ -186,13 +189,93 @@ Internal quiz.
 
 ### Notes <!-- omit in toc -->
 
-Notes here
+HTML Lists are of three types:
+
+1. Unordered Lists
+2. Ordered Lists
+3. Description Lists
+
+#### Unordered Lists
+
+The syntax for unordered lists is :
+
+```html
+<ul>
+  <li>This is</li>
+  <li>an unordered</li>
+  <li>list.</li>
+</ul>
+```
+
+`ul` - Unordered list tag
+`li` - List item tag
+
+#### Ordered Lists
+
+The syntax for ordered lists is very similar to that or unordered list :
+
+```html
+<ol>
+  <li>This is</li>
+  <li>an unordered</li>
+  <li>list.</li>
+</ol>
+```
+
+`ol` - Ordered list tag
+`li` - List item tag
+
+**OUTPUT**:
+
+<ol>
+  <li>This is</li>
+  <li>an unordered</li>
+  <li>list.</li>
+</ol>
+
+#### Description Lists
+
+Description lists are lists with key value pairs. The syntax for description lists is :
+
+```html
+<p>Making Power-Puff Girls</p>
+
+<dl>
+  <dt>Sugar</dt>
+  <dd>A large jar of white and brown sugar.</dd>
+
+  <dt>Spice</dt>
+  <dd>ALL of them.</dd>
+
+  <dt>Everything Nice</dt>
+  <dd>Chocolates, candies and more.</dd>
+</dl>
+```
+
+`dl` - Description list
+`dt` - Description title
+`dd` - Description details
+
+**OUTPUT**:
+
+<p>Making Power-Puff Girls</p>
+
+<dl>
+  <dt>Sugar</dt>
+  <dd>A large jar of white and brown sugar.</dd>
+
+  <dt>Spice</dt>
+  <dd>ALL of them.</dd>
+
+  <dt>Everything Nice</dt>
+  <dd>Chocolates, candies and more. </dd>
+</dl>
 
 ### Activity <!-- omit in toc -->
 
-Activity here
+Created a HTML File with all three types of lists.
 
-**Solution**
+[**Solution**](/07/)
 
 ## 08. Attributes
 
