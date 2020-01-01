@@ -1,20 +1,29 @@
 # C01 - L01 - HTML
 
-1. Course Introduction
-2. Intro to HTML
-3. [Text Editors](#03-text-editors)
-4. [Exercise: Creating an HTML File](#04-exercise-creating-an-html-file)
-5. [Text Elements I](#05-text-elements-i)
-6. Text Elements II
-7. HTML Lists
-8. Attributes
-9. The DOM
-10. Exercise: Creating an HTML Template
-11. Forms
-12. Exercise: Debugging HTML
-13. Recap
+- [C01 - L01 - HTML](#c01---l01---html)
+  - [01. Course Introduction](#01-course-introduction)
+  - [02. Intro to HTML](#02-intro-to-html)
+  - [03. Text Editors](#03-text-editors)
+  - [04. Exercise: Creating an HTML File](#04-exercise-creating-an-html-file)
+  - [05. Text Elements I](#05-text-elements-i)
+  - [06. Text Elements II](#06-text-elements-ii)
+  - [07. HTML Lists](#07-html-lists)
+  - [08. Attributes](#08-attributes)
+  - [09. The DOM](#09-the-dom)
+  - [10. Exercise: Creating an HTML Template](#10-exercise-creating-an-html-template)
+  - [11. Forms](#11-forms)
+  - [12. Exercise: Debugging HTML](#12-exercise-debugging-html)
+  - [13. Recap](#13-recap)
 
 ---
+
+## 01. Course Introduction
+
+An introduction to the course.
+
+## 02. Intro to HTML
+
+Provides an overview of what HTML is and how it works along with CSS and Javascript to create interactive web pages.
 
 ## 03. Text Editors
 
@@ -83,10 +92,176 @@ Inline elements are:
 - emphasized words `<em>`
 - important words `<strong>`
 
-### Activity
+### Activity <!-- omit in toc -->
 
 There is no proposed activity for this lesson per se. Although for reference I have made an HTML which uses the block and inline elements discussed above.
 
 [**Solution**](/05/)
 
 ---
+
+## 06. Text Elements II
+
+### Notes <!-- omit in toc -->
+
+#### Headings <!-- omit in toc -->
+
+Headings are the primary way to outline the content of your webpage. They define the outline of your web page as both humans and search engines see it, which makes selecting relevant headings essential for a high-quality web page.
+
+The code sample used to illustrate this is :
+
+```html
+<h1>Observable Universe</h1>
+<h2>Milky Way Galaxy</h2>
+<h3>Earth</h3>
+<h4>USA</h4>
+<h5>Norfolk, VA</h5>
+<h6>Main Street</h6>
+```
+
+##### Accessibility by headers <!-- omit in toc -->
+
+For people who are blind or visually impaired, screen reading software is used to parse through text on a web page. A common technique these folks will use to navigate the page is to jump from heading to heading to determine the overall content of the page more easily.
+
+If you did skip headings and went from `<h1>` to `<h3>`, you may cause confusion since the user has to deal with a missing heading.
+
+#### Paragraphs <!-- omit in toc -->
+
+Paragraphs act as the default block-level element of HTML documents.
+
+The code sample used to illustrate this is :
+
+```html
+<p>
+  The sweet-faced and loving Labrador Retriever is actually one of the most
+  popular dog breeds.
+</p>
+<p>
+  Labs are extremely friendly with an easygoing and high-spirited personality
+  which is great for bonding with the whole family.
+</p>
+```
+
+#### Span <!-- omit in toc -->
+
+The HTML `<span>` element is like a generic wrapper that is used to group text, mostly for styling purposes.
+
+The code sample to illustrate this is :
+
+```html
+<style>
+  p {
+    color: black;
+  }
+  .red {
+    color: red;
+  }
+</style>
+<p>
+  This sentence needs some <span class="”red”">visual emphasis</span> to really
+  bring home the point.
+</p>
+```
+
+#### Blockquote <!-- omit in toc -->
+
+Blockquotes are used to identify a citation.
+
+```html
+<blockquote cite="https://www.wikiwand.com/en/Scooby-Doo_(character)">
+  <p>Ruh-roh--RAGGY!!!</p>
+  <footer>—Scooby Doo, <cite>Mystery Incorporated</cite></footer>
+</blockquote>
+```
+
+#### Line Breaks <!-- omit in toc -->
+
+In order to modify the default spacing and line breaking of HTML we use the `<br />` element.
+
+### Activity <!-- omit in toc -->
+
+Internal quiz.
+
+## 07. HTML Lists
+
+### Notes <!-- omit in toc -->
+
+Notes here
+
+### Activity <!-- omit in toc -->
+
+Activity here
+
+**Solution**
+
+## 08. Attributes
+
+### Notes <!-- omit in toc -->
+
+Notes here
+
+### Activity <!-- omit in toc -->
+
+Activity here
+
+**Solution**
+
+## 09. The DOM
+
+### Notes <!-- omit in toc -->
+
+Notes here
+
+### Activity <!-- omit in toc -->
+
+Activity here
+
+**Solution**
+
+## 10. Exercise: Creating an HTML Template
+
+### Notes <!-- omit in toc -->
+
+Notes here
+
+### Activity <!-- omit in toc -->
+
+Activity here
+
+**Solution**
+
+## 11. Forms
+
+### Notes <!-- omit in toc -->
+
+Notes here
+
+### Activity <!-- omit in toc -->
+
+Activity here
+
+**Solution**
+
+## 12. Exercise: Debugging HTML
+
+### Notes <!-- omit in toc -->
+
+Notes here
+
+### Activity <!-- omit in toc -->
+
+Activity here
+
+**Solution**
+
+## 13. Recap
+
+### Notes <!-- omit in toc -->
+
+Notes here
+
+### Activity <!-- omit in toc -->
+
+Activity here
+
+**Solution**
