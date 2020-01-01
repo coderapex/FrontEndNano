@@ -2,7 +2,7 @@
 
 C01 - CSS, Website Layout, Website Components
 
-1. L01 - HTML
+1. [L01 - HTML](L01/README.md)
    1. Course Introduction
    2. Intro to HTML
    3. Text Editors
