@@ -12,11 +12,17 @@
       - [Ordered Lists](#ordered-lists)
       - [Description Lists](#description-lists)
   - [08. Attributes](#08-attributes)
+      - [Images](#images)
+        - [Links](#links)
+      - [Comments](#comments)
+      - [Self-Closing Elements](#self-closing-elements)
   - [09. The DOM](#09-the-dom)
   - [10. Exercise: Creating an HTML Template](#10-exercise-creating-an-html-template)
   - [11. Forms](#11-forms)
   - [12. Exercise: Debugging HTML](#12-exercise-debugging-html)
   - [13. Recap](#13-recap)
+
+**Note**: A substantial amount of content in this repo is copy-pasted from the Udacity program. I am maintaining this repo to be able to reference learning material from the course after access has been revoked on program completion.
 
 ---
 
@@ -281,13 +287,79 @@ Created a HTML File with all three types of lists.
 
 ### Notes <!-- omit in toc -->
 
-Notes here
+ Attributes provide additional information about an element, and are always specified in the start tag. Attributes usually come in name/value pairs like `name="value"`.
 
-### Activity <!-- omit in toc -->
+#### Images
 
-Activity here
+- The “source” (URL or file location) from where an image is taken through the `src` attribute
+- The image’s alternative text (often a description for those with accessibility needs) is provided through the `alt` attribute
+- The image size can be adjusted through the `width` and `height` attributes
+- Images are self-closing - you add a slash at the end, instead of another `</img>` tag as we have seen before
 
-**Solution**
+##### SYNTAX <!-- omit in toc -->
+
+```html
+<img
+  src="image url"
+  alt="description of image"
+  width="480"
+  height="320"
+/>
+```
+
+##### Links
+
+n HTML, links are inline elements written with the <a> tag. The href attribute (hypertext reference) is used to define the destination of the link.
+
+There are 3 types of destinations you can define:
+
+- anchor targets, to navigate within the same page
+- relative URLs, usually to navigate within the same website
+- absolute URLs, usually to navigate to another website
+
+Additional attributes besides `a` and `href` that can be used are:
+
+- `rel` attribute to specify the relationship between the current and linked document
+  - example: `rel="noopener"` prevents a link from being able to access the `window.opener` property and ensures it runs in a separate process with the `noopener` rel value.
+- `target` attribute - specify where to open the linked document
+  - example: `_blank` requests the browser to open the link in a new window instead of the same one with where the link is displayed
+
+##### SYNTAX <!-- omit in toc -->
+
+```html
+<a href="www.coderapex.com" rel="noopener" target="_blank" >Visit CoderApex.com</a>
+```
+
+<a href="www.coderapex.com" rel="noopener" target="_blank" >Visit CoderApex.com</a>
+
+#### Comments
+
+Comments will be ignored by the browser. They are to any person who will be reading the source code in the future. That could be any developer on the team or outside the organization, or even yourself in the future.
+
+A comment starts with `<!--` and ends with `-->`.
+
+##### SYNTAX <!-- omit in toc -->
+
+```html
+<!-- Place comment here -->
+```
+
+#### Self-Closing Elements
+
+Certain HTML Elements like `<br />`, `<hr>`, `<input>`, etc. are self closing and will not have any closing tags.
+
+As they do not have any closing tags, they cannot contain any content inside them. They generally have attributes that help provide more information.
+
+##### SYNTAX <!-- omit in toc -->
+
+```html
+<!-- line-break -->
+<br />
+<!-- image -->
+<img src="#" alt="Img description" />
+<!-- text input -->
+<input type="text" />
+```
 
 ## 09. The DOM
 
